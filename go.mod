@@ -1,3 +1,3 @@
-module github.com/Lolendor/rozmovlialka
+module github.com/Lolendor/rozmovlyalka
 
 go 1.21

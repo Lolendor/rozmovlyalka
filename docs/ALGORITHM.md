@@ -1,7 +1,7 @@
 # Rozm.exe — реверс-инжиниринг алгоритма синтеза украинской речи
 
-Цель: перенос в Go-библиотеку `rozmovlialka` (текст → PCM/WAV/MP3).
-Источник: `Rozm.exe` (Delphi 7, PE i386, image base 0x400000), «Розмовлялка», А. Чорний, 2003.
+Цель: перенос в Go-библиотеку `rozmovlyalka` (текст → PCM/WAV/MP3).
+Источник: `Rozm.exe` (Delphi 7, PE i386, image base 0x400000), «Розмовлялька», А. Чорний, 2003.
 
 Все строки в оригинале — **cp1251 (Windows-1251)**, 1 байт = 1 символ. Порт работает
 на байтовых строках cp1251, а не на UTF-8.
@@ -970,7 +970,7 @@ zzzz зі\з      (первая и последняя записи поиско�
 
 ---
 
-# Порт Go (`rozmovlialka`)
+# Порт Go (`rozmovlyalka`)
 
 ## Соответствие функций
 
@@ -1022,7 +1022,7 @@ go run ./cmd/roztts -voice 3 -o мова.mp3 -f текст.txt
 ```
 
 ```go
-pcm, err := rozmovlialka.Synthesize("Привіт", rozmovlialka.Options{Voice: '2', Rate: 5})
-wav, err := rozmovlialka.SynthesizeWAV("Привіт", rozmovlialka.Options{})
-mp3, err := rozmovlialka.SynthesizeMP3("Привіт", rozmovlialka.Options{})
+pcm, err := rozmovlyalka.Synthesize("Привіт", rozmovlyalka.Options{Voice: '2', Rate: 5})
+wav, err := rozmovlyalka.SynthesizeWAV("Привіт", rozmovlyalka.Options{})
+mp3, err := rozmovlyalka.SynthesizeMP3("Привіт", rozmovlyalka.Options{})
 ```

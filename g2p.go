@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 // g2p — порт FUN_0046662c: перевод текста с ударениями в строку фонемных
 // байтов (0xD2..0xFA). Два прохода:

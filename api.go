@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 import (
 	"bytes"
@@ -21,13 +21,13 @@ func (o *Options) validate() error {
 	switch o.Voice {
 	case '1', '2', '3':
 	default:
-		return fmt.Errorf("rozmovlialka: неизвестный голос %q (ожидается '1', '2' или '3')", o.Voice)
+		return fmt.Errorf("rozmovlyalka: неизвестный голос %q (ожидается '1', '2' или '3')", o.Voice)
 	}
 	if o.Rate == 0 {
 		o.Rate = 5
 	}
 	if o.Rate < 1 || o.Rate > 10 {
-		return fmt.Errorf("rozmovlialka: скорость %d вне диапазона 1..10", o.Rate)
+		return fmt.Errorf("rozmovlyalka: скорость %d вне диапазона 1..10", o.Rate)
 	}
 	return nil
 }

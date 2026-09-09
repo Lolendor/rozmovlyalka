@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 import (
 	"bytes"
@@ -13,7 +13,7 @@ import (
 func EncodeMP3(w io.Writer, pcm []byte) error {
 	ff, err := exec.LookPath("ffmpeg")
 	if err != nil {
-		return fmt.Errorf("rozmovlialka: для MP3 нужен ffmpeg в PATH: %w", err)
+		return fmt.Errorf("rozmovlyalka: для MP3 нужен ffmpeg в PATH: %w", err)
 	}
 	raw := make([]byte, 2*len(pcm))
 	for i, b := range pcm {
@@ -31,7 +31,7 @@ func EncodeMP3(w io.Writer, pcm []byte) error {
 	cmd.Stdout = &out
 	cmd.Stderr = &errb
 	if err := cmd.Run(); err != nil {
-		return fmt.Errorf("rozmovlialka: ffmpeg: %w: %s", err, errb.String())
+		return fmt.Errorf("rozmovlyalka: ffmpeg: %w: %s", err, errb.String())
 	}
 	_, err = w.Write(out.Bytes())
 	return err

@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Lolendor/rozmovlialka"
+	"github.com/Lolendor/rozmovlyalka"
 )
 
 type config struct {
@@ -131,7 +131,7 @@ func main() {
 		fail("нет текста для озвучивания (используйте аргументы, -f файл или stdin)")
 	}
 
-	opts := rozmovlialka.Options{Voice: cfg.voice, Rate: cfg.rate}
+	opts := rozmovlyalka.Options{Voice: cfg.voice, Rate: cfg.rate}
 	if cfg.voice == '1' && cfg.rate != 5 {
 		fail("голос 1 поддерживает только rate 5")
 	}
@@ -150,9 +150,9 @@ func main() {
 
 	var data []byte
 	if strings.HasSuffix(strings.ToLower(cfg.out), ".mp3") {
-		data, err = rozmovlialka.SynthesizeMP3(text, opts)
+		data, err = rozmovlyalka.SynthesizeMP3(text, opts)
 	} else {
-		data, err = rozmovlialka.SynthesizeWAV(text, opts)
+		data, err = rozmovlyalka.SynthesizeWAV(text, opts)
 	}
 	if err != nil {
 		fail("%v", err)

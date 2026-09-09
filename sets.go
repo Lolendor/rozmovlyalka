@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 // byteSet — аналог Delphi `set of AnsiChar` (побитовая карта).
 type byteSet [256]bool

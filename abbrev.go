@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 // Этап «аббревиатуры»: FUN_00465888.
 //

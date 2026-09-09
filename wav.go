@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 import (
 	"encoding/binary"
@@ -23,7 +23,7 @@ func loadWavTemplate() ([44]byte, error) {
 		return t, err
 	}
 	if len(b) != 44 {
-		return t, fmt.Errorf("rozmovlialka: шаблон wavhead имеет размер %d, ожидалось 44", len(b))
+		return t, fmt.Errorf("rozmovlyalka: шаблон wavhead имеет размер %d, ожидалось 44", len(b))
 	}
 	copy(t[:], b)
 	return t, nil

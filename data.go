@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 import (
 	"bytes"
@@ -61,16 +61,16 @@ var bsnTable = func() (t [256]byte) {
 func gunzipData(name string) ([]byte, error) {
 	raw, err := dataFS.ReadFile("data/" + name)
 	if err != nil {
-		return nil, fmt.Errorf("rozmovlialka: нет данных %q: %w", name, err)
+		return nil, fmt.Errorf("rozmovlyalka: нет данных %q: %w", name, err)
 	}
 	zr, err := gzip.NewReader(bytes.NewReader(raw))
 	if err != nil {
-		return nil, fmt.Errorf("rozmovlialka: %q: %w", name, err)
+		return nil, fmt.Errorf("rozmovlyalka: %q: %w", name, err)
 	}
 	defer zr.Close()
 	out, err := io.ReadAll(zr)
 	if err != nil {
-		return nil, fmt.Errorf("rozmovlialka: %q: %w", name, err)
+		return nil, fmt.Errorf("rozmovlyalka: %q: %w", name, err)
 	}
 	return out, nil
 }
@@ -81,7 +81,7 @@ func loadInt32s(name string) ([]int32, error) {
 		return nil, err
 	}
 	if len(b)%4 != 0 {
-		return nil, fmt.Errorf("rozmovlialka: %q: размер %d не кратен 4", name, len(b))
+		return nil, fmt.Errorf("rozmovlyalka: %q: размер %d не кратен 4", name, len(b))
 	}
 	out := make([]int32, len(b)/4)
 	for i := range out {
@@ -176,7 +176,7 @@ func loadDictionaries() (*dictionaries, error) {
 			return
 		}
 		if len(wif) == 0 {
-			dictErr = fmt.Errorf("rozmovlialka: пустой wif.bin")
+			dictErr = fmt.Errorf("rozmovlyalka: пустой wif.bin")
 			return
 		}
 		d := &dictionaries{

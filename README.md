@@ -1,7 +1,7 @@
-# Rozmovlialka
+# Rozmovlyalka
 
 A reverse-engineered, byte-faithful reimplementation in Go of the Ukrainian
-speech synthesizer **«Розмовлялка»** (Rozm.exe, Windows, ~2001). The original
+speech synthesizer **«Розмовлялька»** (Rozm.exe, Windows, ~2001). The original
 algorithm was recovered from the disassembly: letter and dictionary rules,
 stress placement, letter-to-phoneme (G2P) conversion and diphone
 concatenation — including the quirks (and occasional bugs) of the original
@@ -33,14 +33,14 @@ A detailed write-up of the reverse engineering effort lives in
 Requires Go 1.21+. Voice and dictionary data are embedded into the binary.
 
 ```sh
-go install github.com/Lolendor/rozmovlialka/cmd/roztts@latest
+go install github.com/Lolendor/rozmovlyalka/cmd/roztts@latest
 ```
 
 Or from source:
 
 ```sh
-git clone https://github.com/Lolendor/rozmovlialka
-cd rozmovlialka
+git clone https://github.com/Lolendor/rozmovlyalka
+cd rozmovlyalka
 go run ./cmd/roztts -o hello.wav "Привіт, світ!"
 ```
 
@@ -77,12 +77,12 @@ package main
 import (
 	"os"
 
-	"github.com/Lolendor/rozmovlialka"
+	"github.com/Lolendor/rozmovlyalka"
 )
 
 func main() {
-	wav, err := rozmovlialka.SynthesizeWAV("Привіт, світ!",
-		rozmovlialka.Options{Voice: '2', Rate: 5})
+	wav, err := rozmovlyalka.SynthesizeWAV("Привіт, світ!",
+		rozmovlyalka.Options{Voice: '2', Rate: 5})
 	if err != nil {
 		panic(err)
 	}
@@ -131,6 +131,6 @@ samples/      synthesis samples for each voice
 ## Licensing note
 
 The voice and dictionary files under `data/` were extracted from the
-«Розмовлялка» distribution and belong to the authors of the original program.
+«Розмовлялька» distribution and belong to the authors of the original program.
 This project is educational and archival in nature: it reconstructs the
 behavior of an old synthesizer to give it a second life on modern systems.

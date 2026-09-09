@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 // Этап «английский»: FUN_00465e9c.
 //

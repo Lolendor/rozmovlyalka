@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 // Этап «нормализация»: FUN_0046621c.
 //

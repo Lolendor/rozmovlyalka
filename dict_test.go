@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 import (
 	"encoding/hex"

@@ -1,4 +1,4 @@
-package rozmovlialka
+package rozmovlyalka
 
 import (
 	"fmt"
@@ -51,7 +51,7 @@ func loadVoice(label byte) (*voice, error) {
 				return
 			}
 			if len(ip) < diphoneRows || len(lp) < diphoneRows {
-				voiceErr = fmt.Errorf("rozmovlialka: голос %q: таблица дифонов короче %d", l, diphoneRows)
+				voiceErr = fmt.Errorf("rozmovlyalka: голос %q: таблица дифонов короче %d", l, diphoneRows)
 				return
 			}
 			voiceRef[l] = &voice{label: l, ip: ip, lp: lp, sd: sd}
@@ -62,7 +62,7 @@ func loadVoice(label byte) (*voice, error) {
 	}
 	v := voiceRef[label]
 	if v == nil {
-		return nil, fmt.Errorf("rozmovlialka: неизвестный голос %q", label)
+		return nil, fmt.Errorf("rozmovlyalka: неизвестный голос %q", label)
 	}
 	return v, nil
 }
@@ -72,7 +72,7 @@ func loadVoice(label byte) (*voice, error) {
 // ошибку для других rate (темповая декомпозиция не портирована).
 func synthPCM(ph []byte, v *voice, rate int) ([]byte, error) {
 	if v.label == '1' && rate != 5 {
-		return nil, fmt.Errorf("rozmovlialka: голос 1 поддерживает только rate 5 (получен %d)", rate)
+		return nil, fmt.Errorf("rozmovlyalka: голос 1 поддерживает только rate 5 (получен %d)", rate)
 	}
 	out := make([]byte, synthBuffer)
 	for i := range out {
