@@ -6,7 +6,7 @@
 темп ×5 і гучність 100% — грає без підсилення поверх оригінальної амплітуди.
 
 A reverse-engineered, byte-faithful reimplementation in Go of the Ukrainian
-speech synthesizer **«Розмовлялька»** (Rozm.exe, Windows, ~2001). The original
+speech synthesizer **«Розмовлялька»** (Rozm.exe, Windows, 2003). The original
 algorithm was recovered from the disassembly: letter and dictionary rules,
 stress placement, letter-to-phoneme (G2P) conversion and diphone
 concatenation — including the quirks (and occasional bugs) of the original
