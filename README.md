@@ -60,7 +60,7 @@ echo "Доброго ранку!" | roztts --stdout > morning.wav
 Options:
 
 - `-voice, --voice 1|2|3` — voice (default 1);
-- `-rate, --rate 1..10` — speed; voice 1 supports only the reference rate 5;
+- `-rate, --rate 1..10` — speed (default 5);
 - `-o, --out file` — output file, format selected by extension `.wav`/`.mp3`;
 - `-f, --file file` — read text from a file;
 - `-stdout` — write WAV to stdout.
@@ -96,9 +96,10 @@ cp1251, the original encoding of the program.
 
 ## Port status
 
-- all three voices with the reference `rate = 5`;
-- for voice 1, `rate ≠ 5` is not implemented (the unit tempo decomposition,
-  FUN at 0x46705f..0x4673be) — `Synthesize` returns an error;
+- all three voices, all rates 1..10;
+- voice 1 `rate ≠ 5` uses the unit tempo decomposition reimplemented from
+  0x46705f..0x4673be (byte-exact against the original binary for every
+  diphone × every rate; see `docs/ALGORITHM.md`);
 - voice 2 reproduces its signature pause placement before ч/ц.
 
 ## Tests

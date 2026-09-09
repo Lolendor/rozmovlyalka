@@ -107,7 +107,7 @@ func usage() {
 Флаги:
   -o, --out FILE      выходной файл (.wav или .mp3; по умолчанию out.wav)
   -voice, --voice N   голос: 1, 2, 3 (по умолчанию 1)
-  -rate, --rate N     скорость 1..10 (голос 1 — только 5)
+  -rate, --rate N     скорость 1..10 (по умолчанию 5)
   -f, --file FILE     читать текст из файла
   -stdout             писать WAV в stdout
   -h, --help          справка
@@ -132,9 +132,6 @@ func main() {
 	}
 
 	opts := rozmovlyalka.Options{Voice: cfg.voice, Rate: cfg.rate}
-	if cfg.voice == '1' && cfg.rate != 5 {
-		fail("голос 1 поддерживает только rate 5")
-	}
 
 	// Диагностика ввода: помогает заметить, если оболочка «съела» часть текста.
 	shown := text
