@@ -1,7 +1,7 @@
 {
   "name": "rozmovlyalka-js",
   "version": "0.1.0",
-  "description": "Веб-порт украинского синтезатора речи «Розмовлялька» (2001): текст → PCM/WAV/MP3, три голоса, темп 1..10. Библиотека для браузера (script/npm) и Node.",
+  "description": "Веб-порт украинского синтезатора речи «Розмовлялька» (2003): текст → PCM/WAV/MP3, три голоса, темп 1..10. Библиотека для браузера (script/npm) и Node.",
   "type": "module",
   "main": "./dist/rozmovlyalka.cjs.js",
   "module": "./src/index.js",

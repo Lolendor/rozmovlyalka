@@ -9,7 +9,7 @@ import { dirname, join } from 'node:path';
 
 const defaultDataUrl = new URL('../data/', import.meta.url).href;
 
-const HELP = `roztts-js — синтез украинской речи (порт «Розмовляльки», 2001)
+const HELP = `roztts-js — синтез украинской речи (порт «Розмовляльки», 2003)
 
 Использование:
   roztts-js [флаги] "текст"

@@ -1,4 +1,4 @@
-// rozmovlyalka-js — веб-порт украинского синтезатора «Розмовлялька» (2001).
+// rozmovlyalka-js — веб-порт украинского синтезатора «Розмовлялька» (2003).
 export {
   Rozmovlyalka,
   SAMPLE_RATE,
