@@ -1,0 +1,57 @@
+{
+  "name": "rozmovlyalka-js",
+  "version": "0.1.0",
+  "description": "Веб-порт украинского синтезатора речи «Розмовлялька» (2001): текст → PCM/WAV/MP3, три голоса, темп 1..10. Библиотека для браузера (script/npm) и Node.",
+  "type": "module",
+  "main": "./dist/rozmovlyalka.cjs.js",
+  "module": "./src/index.js",
+  "unpkg": "./dist/rozmovlyalka.umd.min.js",
+  "jsdelivr": "./dist/rozmovlyalka.umd.min.js",
+  "exports": {
+    ".": {
+      "browser": "./src/index.js",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./dist/rozmovlyalka.umd.js": "./dist/rozmovlyalka.umd.js",
+    "./dist/rozmovlyalka.umd.min.js": "./dist/rozmovlyalka.umd.min.js",
+    "./dist/rozmovlyalka.esm.js": "./dist/rozmovlyalka.esm.js"
+  },
+  "bin": {
+    "roztts-js": "./bin/roztts.mjs"
+  },
+  "files": [
+    "src",
+    "dist",
+    "data",
+    "bin",
+    "vendor",
+    "README.md"
+  ],
+  "browser": {
+    "./src/module-dir.js": "./src/module-dir.browser.js",
+    "./src/ffmpeg.js": "./src/ffmpeg.browser.js",
+    "./src/fsread.js": "./src/fsread.browser.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/serve.mjs"
+  },
+  "keywords": [
+    "tts",
+    "speech",
+    "ukrainian",
+    "розмовлялька",
+    "diphone",
+    "synthesizer"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

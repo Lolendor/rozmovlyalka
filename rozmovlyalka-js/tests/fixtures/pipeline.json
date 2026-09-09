@@ -1,0 +1,656 @@
+{
+  "bsnTable": "21e0e1e2e3b4e4e5bae6e7e8b3bfe9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fcfeff275c2d20303132333435363738393a3b3c3d3e3f402324",
+  "counts": {
+    "bsn": 1681698,
+    "eudic": 105384,
+    "skorN": 2788
+  },
+  "entries": [
+    {
+      "text": "Привіт, світ!",
+      "stages": {
+        "in": "cff0e8e2b3f22c20f1e2b3f2210d0a",
+        "abbrev": "cff0e8e2b3f22c20f1e2b3f2210d0a",
+        "numbers": "cff0e8e2b3f22c20f1e2b3f2210d0a",
+        "english": "cff0e8e2b3f22c20f1e2b3f2210d0a",
+        "normalize": "eff0e8e2b3f22c20f1e2b3f2210d20",
+        "stress": "eff0e8e2b2f2202c20f1e2b2f22021200020",
+        "g2p": "faeffaf0e8e2d5f2faf1fae2d5f2fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 49796,
+          "sha": "94801c58e7e5042592597a13f6070269f99973ea5867029574bc170f323dd239"
+        },
+        "1r10": {
+          "len": 18442,
+          "sha": "07c7484fb1b5f1939ac95de9f06c63504f4980889b17266be7eabaf4b78a50ea"
+        },
+        "1r5": {
+          "len": 19721,
+          "sha": "0c570f9787cc7838af344e7d77c8b6c05a4b1bf758a91abca5577fd024e285e0"
+        },
+        "2r5": {
+          "len": 21020,
+          "sha": "9419246b1f483538ce4dba4cbf0d9811a5c7575e1241ea79e691a726c6fb27f3"
+        },
+        "3r5": {
+          "len": 21462,
+          "sha": "a97364212285590380e19805ecfed5b9a53fad3cb22a6f8f92cf837bbc02ebe9"
+        },
+        "wav.v1r5": {
+          "len": 19765,
+          "sha": "5502187c7a643938c60bc526949eb3512938c4336f3a53811bc309c20554bfd0"
+        }
+      }
+    },
+    {
+      "text": "Доброго ранку, Україно!",
+      "stages": {
+        "in": "c4eee1f0eee3ee20f0e0edeaf32c20d3eaf0e0bfedee210d0a",
+        "abbrev": "c4eee1f0eee3ee20f0e0edeaf32c20d3eaf0e0bfedee210d0a",
+        "numbers": "c4eee1f0eee3ee20f0e0edeaf32c20d3eaf0e0bfedee210d0a",
+        "english": "c4eee1f0eee3ee20f0e0edeaf32c20d3eaf0e0bfedee210d0a",
+        "normalize": "e4eee1f0eee3ee20f0e0edeaf32c20f3eaf0e0bfedee210d20",
+        "stress": "e4cee1f0eee3ee20f0c0edeaf3202c20f3eaf0e0afedee2021200020",
+        "g2p": "fae4d6e1faf0eee3eef0d2edfaeaf3faf3eafaf0e0e9afedeefafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 64197,
+          "sha": "97e867ac17748f95ee82c0b37032a5daa0f468c6c9264e99c884d26491135124"
+        },
+        "1r10": {
+          "len": 20567,
+          "sha": "b725a8ec71a4dcb55f0c4ff3d7efeed4406bb681c7ff344ca31db1f1c057001c"
+        },
+        "1r5": {
+          "len": 27584,
+          "sha": "02c0b6c46cae580727811f50c8cb7511882b6b2365686b64fe78f9aedae5210a"
+        },
+        "2r5": {
+          "len": 27750,
+          "sha": "cdd3fb358094f56d8736445d9d69e6114377a14af7ff505d048153e895dc029f"
+        },
+        "3r5": {
+          "len": 29095,
+          "sha": "0c3f54ac145278c6165a7de3654eab4a5ef3c1f558c3c62b0c49ac88a63bc168"
+        },
+        "wav.v1r5": {
+          "len": 27628,
+          "sha": "c15be971aac6b191bdb278e88ff832848c27f0313f923bc8488d5d0773c48734"
+        }
+      }
+    },
+    {
+      "text": "Він читає 12 книг за 2024 рік.",
+      "stages": {
+        "in": "c2b3ed20f7e8f2e0ba20313220eaede8e320e7e0203230323420f0b3ea2e0d0a",
+        "abbrev": "c2b3ed20f7e8f2e0ba20313220eaede8e320e7e0203230323420f0b3ea2e0d0a",
+        "numbers": "c2b3ed20f7e8f2e0ba2020e4e2e0ede0e4f6fff2fc2020eaede8e320e7e02020e4e2b320f2e8f1fff7b320e4e2e0e4f6fff2fc20f7eef2e8f0e82020f0b3ea2e0d0a",
+        "english": "c2b3ed20f7e8f2e0ba2020e4e2e0ede0e4f6fff2fc2020eaede8e320e7e02020e4e2b320f2e8f1fff7b320e4e2e0e4f6fff2fc20f7eef2e8f0e82020f0b3ea2e0d0a",
+        "normalize": "e2b3ed20f7e8f2e0ba20e4e2e0ede0e4f6fff2fc20eaede8e320e7e020e4e2b320f2e8f1fff7b320e4e2e0e4f6fff2fc20f7eef2e8f0e820f0b3ea2e0d20",
+        "stress": "e2b2ed20f7e8f2c0ba20e4e2e0edc0e4f6fff2fc20eaedc8e320e7e020e4e2b220f2c8f1fff7b320e4e2c0e4f6fff2fc20f7eef2c8f0e820f0b2ea202e200020",
+        "g2p": "fae2d5edfaf7e8f2d2e9e5e4fae2e0edd2e4fadfe0defaeafaedd4e3fae7e0e4fae2d5f2d4dde0f7f9e4fae2d2e4fadfe0defaf7eef2d4f0e8f0d5eafafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 140959,
+          "sha": "7e4cb832b6247aca46b09621a805921d30dc0d04f7dae984d8b059ae42a124dd"
+        },
+        "1r10": {
+          "len": 34000,
+          "sha": "3e6c6be73f5785492ab0b8a67f07ca9a02e39e5bbb45fdd52d8908dff7521255"
+        },
+        "1r5": {
+          "len": 64422,
+          "sha": "b52e05253ef0227a0b137233050a3a2f5105ab96c31390921da2c667026f1750"
+        },
+        "2r5": {
+          "len": 64273,
+          "sha": "900b9bc5d03ca0f1a4e23fb3e6b172dcd6b16fab130b00ff9207bf63d7020cda"
+        },
+        "3r5": {
+          "len": 67735,
+          "sha": "beb766879b9af410186fce55186491cf8df624b590d685ae375aca969b8300b0"
+        },
+        "wav.v1r5": {
+          "len": 64466,
+          "sha": "82e76e151fc4f27580d09519227b3ff368d66d289eb4d66e2d99292681053399"
+        }
+      }
+    },
+    {
+      "text": "Це 100% правда.",
+      "stages": {
+        "in": "d6e5203130302520eff0e0e2e4e02e0d0a",
+        "abbrev": "d6e520313030e2b3e4f1eef2eab3e220eff0e0e2e4e02e0d0a",
+        "numbers": "d6e52020f1f2ee2020e2b3e4f1eef2eab3e220eff0e0e2e4e02e0d0a",
+        "english": "d6e52020f1f2ee2020e2b3e4f1eef2eab3e220eff0e0e2e4e02e0d0a",
+        "normalize": "f6e520f1f2ee20e2b3e4f1eef2eab3e220eff0e0e2e4e02e0d20",
+        "stress": "f6c520f1f2ce20e2b3e4f1cef2eab3e220eff0c0e2e4e0202e200020",
+        "g2p": "faf6d3f1faf2d6e2f9e4faf1d6f2faeaf9e2faeffaf0d2e2fae4e0fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 64552,
+          "sha": "3459afe867014d11fd4a72b7ae132b346d261d87e78356bfe99b766165919e65"
+        },
+        "1r10": {
+          "len": 15673,
+          "sha": "7900dca03e5facadd0cfe3638cbdcca4faec40521ade7340859472aa31731cfe"
+        },
+        "1r5": {
+          "len": 28817,
+          "sha": "75b469f529e80c98ba4284d607592b0e7537f34cbc954c3b6ce496d3d02db576"
+        },
+        "2r5": {
+          "len": 28897,
+          "sha": "c71ee87ba8aeaedd393bbdfd733406ee1902f84247427e5cdde57586bc4c4daf"
+        },
+        "3r5": {
+          "len": 29555,
+          "sha": "3c39bb734648ed73e38f3952421a6bee9b660a2efde3c2c2fb0abdb203f3f933"
+        },
+        "wav.v1r5": {
+          "len": 28861,
+          "sha": "e0b6ec1ed4f143010317a7ad3866aad85b9e0c8f425b9fd7f349cc4c6d047df7"
+        }
+      }
+    },
+    {
+      "text": "Hello world, my friend!",
+      "stages": {
+        "in": "48656c6c6f20776f726c642c206d7920667269656e64210d0a",
+        "abbrev": "48656c6c6f20776f726c642c206d7920667269656e64210d0a",
+        "numbers": "48656c6c6f20776f726c642c206d7920667269656e64210d0a",
+        "english": "e3e5ebee5cf32020e2ee5cf0ebe4202c20ece05ce92020f4f0e55cede420210d0a",
+        "normalize": "e3e5ebee5cf320e2ee5cf0ebe42c20ece05ce920f4f0e55cede4210d20",
+        "stress": "e3e5ebcef320e2cef0ebe4202c20ecc0e920f4f0c5ede42021200020",
+        "g2p": "fae3e5ebd6f3e2d6f0faebfae4faecd2e9faf4faf0d3edfae4fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 69753,
+          "sha": "bb0f68e4b3f50f685a3b521b77e03d3230ace090f2868e3e5c59e52ffd2362be"
+        },
+        "1r10": {
+          "len": 17473,
+          "sha": "bce7cd3998a3b389e2e39318cb98cd647f54a4e5d3df1c0202e2e7fd17fea357"
+        },
+        "1r5": {
+          "len": 31275,
+          "sha": "f4803640d0729b9ab0a10cb4416d10b7d3efb29d4f450fb48fab4bc958999720"
+        },
+        "2r5": {
+          "len": 28928,
+          "sha": "099fe8cfea5acc2f275eb437aad5afc524c5dd1f70e53b25dad40d7b1d1e2b0c"
+        },
+        "3r5": {
+          "len": 30778,
+          "sha": "50acb34d5fdb5b2d196cd7daffc34d8a321650e67841261cc722d0a71be313bf"
+        },
+        "wav.v1r5": {
+          "len": 31319,
+          "sha": "d35949b78643f616f13028d2649b9f4c57501fe12da9b78dd66c7a474a41759a"
+        }
+      }
+    },
+    {
+      "text": "Т. Г. Шевченко народився 9 березня.",
+      "stages": {
+        "in": "d22e20c32e20d8e5e2f7e5edeaee20ede0f0eee4e8e2f1ff203920e1e5f0e5e7edff2e0d0a",
+        "abbrev": "f2e55c2e20e3e55c2e20d8e5e2f7e5edeaee20ede0f0eee4e8e2f1ff203920e1e5f0e5e7edff2e0d0a",
+        "numbers": "f2e55c2e20e3e55c2e20d8e5e2f7e5edeaee20ede0f0eee4e8e2f1ff2020e4e5e227fff2fc2020e1e5f0e5e7edff2e0d0a",
+        "english": "f2e55c2e20e3e55c2e20d8e5e2f7e5edeaee20ede0f0eee4e8e2f1ff2020e4e5e227fff2fc2020e1e5f0e5e7edff2e0d0a",
+        "normalize": "f2e55c2e20e3e55c2e20f8e5e2f7e5edeaee20ede0f0eee4e8e2f1ff20e4e5e227fff2fc20e1e5f0e5e7edff2e0d20",
+        "stress": "f2c5202e20e3c5202e20f8e5e2f7c5edeaee20ede0f0eee4c8e2f1ff20e4c5e227fff2fc20e1c5f0e5e7edff202e200020",
+        "g2p": "faf2d3fae3d3faf8e5e2faf7d3edfaeaeeede0f0eee4d4e2fadde0e4d3e2fae9e0defae1d3f0e5e7fadbe0fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 121119,
+          "sha": "fe4b325dfc897e0847c36680bcd92f7ae9f4b3399fd6b3f7694d746ec14430e5"
+        },
+        "1r10": {
+          "len": 33264,
+          "sha": "0edc3088e2d141215db43fdd908b8a1e99ff87c3a7c6065a5b0c1c50359de376"
+        },
+        "1r5": {
+          "len": 52875,
+          "sha": "97f48f1e85a8d5c5ab0052e59cce629f0425308d6edc2a9c7f4ac112bf294611"
+        },
+        "2r5": {
+          "len": 54556,
+          "sha": "378ab18569c9757949407c43d2e5c793d264ef240002e60ec3971cda2167f34e"
+        },
+        "3r5": {
+          "len": 56324,
+          "sha": "b5036132ac42df0887896f2bf7e8e410e16ff3913dd733bdbc0ddd481205111e"
+        },
+        "wav.v1r5": {
+          "len": 52919,
+          "sha": "38ed96cc2a10f8bf7ad7fce1dffb0075e8b2796e3f35633e4073ff07f8ba7a95"
+        }
+      }
+    },
+    {
+      "text": "молоко весна хліб мама говорила",
+      "stages": {
+        "in": "eceeebeeeaee20e2e5f1ede020f5ebb3e120ece0ece020e3eee2eef0e8ebe00d0a",
+        "abbrev": "eceeebeeeaee20e2e5f1ede020f5ebb3e120ece0ece020e3eee2eef0e8ebe00d0a",
+        "numbers": "eceeebeeeaee20e2e5f1ede020f5ebb3e120ece0ece020e3eee2eef0e8ebe00d0a",
+        "english": "eceeebeeeaee20e2e5f1ede020f5ebb3e120ece0ece020e3eee2eef0e8ebe00d0a",
+        "normalize": "eceeebeeeaee20e2e5f1ede020f5ebb3e120ece0ece020e3eee2eef0e8ebe00d20",
+        "stress": "eceeebeeeace20e2e5f1edc020f5ebb2e120ecc0ece020e3eee2eef0c8ebe0200d200020",
+        "g2p": "faeceeebeeead6e2e5f1faedd2f5faebd5e1faecd2ece0e3eee2eef0d4ebe0fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 65823,
+          "sha": "fb633a35650ee520e33b2ac3f32582f0aea107cbc5a035f2c1df1dc5afa7b4e8"
+        },
+        "1r10": {
+          "len": 12778,
+          "sha": "330cfb69e8018952bafea9bb70a5e03c6e7da616c4380b79e7bb62369917972b"
+        },
+        "1r5": {
+          "len": 31282,
+          "sha": "14bea467160fa00fe65d1de64493530f1679a1c1a8f304c159949293affddac8"
+        },
+        "2r5": {
+          "len": 30778,
+          "sha": "3e83f31213d170e5f952368613d6dd0ff70eae1e8cad8a948f409c7721dfeb88"
+        },
+        "3r5": {
+          "len": 34408,
+          "sha": "1380ff48c73d083f719acd63d506f9b82abf0537b28ffe68f78c76622e80f373"
+        },
+        "wav.v1r5": {
+          "len": 31326,
+          "sha": "87a1b13e4e55d1517f71e2992937bc7908528ca4e54ebb0b32c34b89a579f23d"
+        }
+      }
+    },
+    {
+      "text": "верби коло річки",
+      "stages": {
+        "in": "e2e5f0e1e820eaeeebee20f0b3f7eae80d0a",
+        "abbrev": "e2e5f0e1e820eaeeebee20f0b3f7eae80d0a",
+        "numbers": "e2e5f0e1e820eaeeebee20f0b3f7eae80d0a",
+        "english": "e2e5f0e1e820eaeeebee20f0b3f7eae80d0a",
+        "normalize": "e2e5f0e1e820eaeeebee20f0b3f7eae80d20",
+        "stress": "e2c5f0e1e820eaceebee20f0b3f7eac8200d200020",
+        "g2p": "fae2d3f0fae1e8ead6ebeef0f9f7faead4fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 44271,
+          "sha": "f6b37ecd9040f607f0c1b2c1389519ddab0072a0243a9ec1e90b0cf736216a71"
+        },
+        "1r10": {
+          "len": 10114,
+          "sha": "5d564fff481bb4e4d71af9bf4fa47dc7e4ed25b211b5b0e783baa874e7d9c124"
+        },
+        "1r5": {
+          "len": 19728,
+          "sha": "bc6ded434af11a2901725b397ec7b514312699589f7d09a97ac1dc039d29d6c8"
+        },
+        "2r5": {
+          "len": 19283,
+          "sha": "39d1fcc238e186f07cfbb4bb42aed01a260bb38d02f080230d96367ddd234e25"
+        },
+        "3r5": {
+          "len": 20219,
+          "sha": "19880f03561e68ec6059124ddd4881ad66bcc0d963a7c6bde78d83eeef55c9b2"
+        },
+        "wav.v1r5": {
+          "len": 19772,
+          "sha": "7207d9e6118ad1fa107355962b08ce19b4b7f87f365794343117d2e3daa51e4f"
+        }
+      }
+    },
+    {
+      "text": "слово'чек до\\брого",
+      "stages": {
+        "in": "f1ebeee2ee27f7e5ea20e4ee5ce1f0eee3ee0d0a",
+        "abbrev": "f1ebeee2ee27f7e5ea20e4ee5ce1f0eee3ee0d0a",
+        "numbers": "f1ebeee2ee27f7e5ea20e4ee5ce1f0eee3ee0d0a",
+        "english": "f1ebeee2ee27f7e5ea20e4ee5ce1f0eee3ee0d0a",
+        "normalize": "f1ebeee2ee27f7e5ea20e4ee5ce1f0eee3ee0d20",
+        "stress": "f1ebeee2cef7e5ea20e4cee1f0eee3ee200d200020",
+        "g2p": "faf1faebeee2d6f7e5eafae4d6e1faf0eee3eefafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 45337,
+          "sha": "c2880ca6b004f74e79188505c1fccff121d9867f11ae91d9090a766a4d7b0e0a"
+        },
+        "1r10": {
+          "len": 12009,
+          "sha": "3c7dd836b8b246598cae3440677791535cf986c5126ef5ee3f91011cd181b664"
+        },
+        "1r5": {
+          "len": 20807,
+          "sha": "0c06db6cc357fd211cef0c4b5bf80495c59de105c2dbfeaa3f32960fe6fbb942"
+        },
+        "2r5": {
+          "len": 20847,
+          "sha": "0a3d1bf2136b39115f8563729a2a62278c38f09aa43e2e1fb436672d5e5ba585"
+        },
+        "3r5": {
+          "len": 21401,
+          "sha": "11f31ae5f400a498974f9558dda8a6584893a595180f426dc6734419834dd3f7"
+        },
+        "wav.v1r5": {
+          "len": 20851,
+          "sha": "f22a19c73fee70d5f0042a644d80543f8ea030e6d112e162e33596f92dbf50f6"
+        }
+      }
+    },
+    {
+      "text": "Щастя для всіх! З'їзд у місті.",
+      "stages": {
+        "in": "d9e0f1f2ff20e4ebff20e2f1b3f52120c727bfe7e420f320ecb3f1f2b32e0d0a",
+        "abbrev": "d9e0f1f2ff20e4ebff20e2f1b3f52120c727bfe7e420f320ecb3f1f2b32e0d0a",
+        "numbers": "d9e0f1f2ff20e4ebff20e2f1b3f52120c727bfe7e420f320ecb3f1f2b32e0d0a",
+        "english": "d9e0f1f2ff20e4ebff20e2f1b3f52120c727bfe7e420f320ecb3f1f2b32e0d0a",
+        "normalize": "f9e0f1f2ff20e4ebff20e2f1b3f52120e727bfe7e420f320ecb3f1f2b32e0d20",
+        "stress": "f9c0f1f2ff20e4ebff20e2f1b2f5202120e727afe7e420f320ecb2f1f2b3202e200020",
+        "g2p": "faf6faf7d2f1fadee0e4fadae0e2faf1d5f5fae7fae9afe7fae4faf3ecd5f1faf2f9fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 77438,
+          "sha": "a85e1447221e7fbc54d9e179eb873f71f4506b727386112ada53b60b92f435c3"
+        },
+        "1r10": {
+          "len": 22782,
+          "sha": "e4bc8a6ba2ab997eff25776614b7db0499e84ba33b8d5e31c40f1e4b223bd42b"
+        },
+        "1r5": {
+          "len": 34118,
+          "sha": "7c2f84d45481a8194607a9c1162cfeb16aff22d5491b48a1042981826f4011a5"
+        },
+        "2r5": {
+          "len": 32836,
+          "sha": "6d7cf8f03fc96cecba87683661bfe8b5cabcca68f0eb901e28ca3192e8c6e22e"
+        },
+        "3r5": {
+          "len": 39596,
+          "sha": "31c2117bdfdf1879a2da6a1fd4f431393b498296828b62d89d64605584d32732"
+        },
+        "wav.v1r5": {
+          "len": 34162,
+          "sha": "3d21f8f8bd305048f6256724d780cc1d4b25b3fc069d10119888ab7fb4e613ac"
+        }
+      }
+    },
+    {
+      "text": "Ти купив new phone? Так, дуже good!",
+      "stages": {
+        "in": "d2e820eaf3efe8e2206e65772070686f6e653f20d2e0ea2c20e4f3e6e520676f6f64210d0a",
+        "abbrev": "d2e820eaf3efe8e2206e65772070686f6e653f20d2e0ea2c20e4f3e6e520676f6f64210d0a",
+        "numbers": "d2e820eaf3efe8e2206e65772070686f6e653f20d2e0ea2c20e4f3e6e520676f6f64210d0a",
+        "english": "d2e820eaf3efe8e220ede9f35c2020f4ee5cf3ed203f20d2e0ea2c20e4f3e6e520e3f35ce420210d0a",
+        "normalize": "f2e820eaf3efe8e220ede9f35c20f4ee5cf3ed3f20f2e0ea2c20e4f3e6e520e3f35ce4210d20",
+        "stress": "f2c820eaf3efc8e220ede9d320f4cef3ed203f20f2c0ea202c20e4d3e6e520e3d3e42021200020",
+        "g2p": "faf2d4eaf3efd4e2faedfae9d7f4d6f3edfaf2d2eafae4d7e6e5e3d7e4fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 111001,
+          "sha": "ac88cca4484cd4f09b4ba002a09840d101bbfe6df274f67052360655e14b9f1a"
+        },
+        "1r10": {
+          "len": 29861,
+          "sha": "e3a48f466f8a5dc54c5173ea9a391c194f5e42745896ac14920534da6361fd16"
+        },
+        "1r5": {
+          "len": 46669,
+          "sha": "35fa1a42f6c8cc7cfc19907a635fee05694a4b74e00576b9a73ad9e75c9b7866"
+        },
+        "2r5": {
+          "len": 43929,
+          "sha": "57e8133bb6643208e226558863e14e6addd05e6a1288e82f261ec53d919a7eb7"
+        },
+        "3r5": {
+          "len": 48196,
+          "sha": "9a2a7d01098d3790e44139199a00a11f65e666e0af9a6cf70d37727f97768f9f"
+        },
+        "wav.v1r5": {
+          "len": 46713,
+          "sha": "7e56e401d56888780cd3c882189c193c5ecfa215098410910a711d2ef3dbd9bc"
+        }
+      }
+    },
+    {
+      "text": "Він сказав: (це важливо), тому слухай.",
+      "stages": {
+        "in": "c2b3ed20f1eae0e7e0e23a2028f6e520e2e0e6ebe8e2ee292c20f2eeecf320f1ebf3f5e0e92e0d0a",
+        "abbrev": "c2b3ed20f1eae0e7e0e23a2028f6e520e2e0e6ebe8e2ee292c20f2eeecf320f1ebf3f5e0e92e0d0a",
+        "numbers": "c2b3ed20f1eae0e7e0e23a2028f6e520e2e0e6ebe8e2ee292c20f2eeecf320f1ebf3f5e0e92e0d0a",
+        "english": "c2b3ed20f1eae0e7e0e23a2028f6e520e2e0e6ebe8e2ee292c20f2eeecf320f1ebf3f5e0e92e0d0a",
+        "normalize": "e2b3ed20f1eae0e7e0e23a28f6e520e2e0e6ebe8e2ee292c20f2eeecf320f1ebf3f5e0e92e0d20",
+        "stress": "e2b2ed20f1eae0e7c0e2203a20f6c520e2e0e6ebc8e2ee202920f2eeecd320f1ebd3f5e0e9202e200020",
+        "g2p": "fae2d5edfaf1faeae0e7d2e2faf6d3e2e0e6faebd4e2eefaf2eeecd7f1faebd7f5e0e9fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 124341,
+          "sha": "3c2c25560eb490d9d19d458335e5c46c0ccfa7e5b6ddcf617df06c97516b37f1"
+        },
+        "1r10": {
+          "len": 36839,
+          "sha": "b636699b12ffd394db17baf4a7328ad022db7f274babdb382ff3a11996a62e53"
+        },
+        "1r5": {
+          "len": 52542,
+          "sha": "8e65a4225f45c64bff516111dba40987b91dbd953a1523ceea8a5752996f09de"
+        },
+        "2r5": {
+          "len": 51780,
+          "sha": "e04baad230fc3fae8292341d05b444c0d42295551c0a283e4db22626bf0149fe"
+        },
+        "3r5": {
+          "len": 55705,
+          "sha": "ef62952ddfa13856e3093e97ce03ce73b8841c94f982f1fdb37cf7bbad572569"
+        },
+        "wav.v1r5": {
+          "len": 52586,
+          "sha": "b8093ee7215e9549c4b10403f52a681bc44bb8ecaa6bc34f41215799563c70e8"
+        }
+      }
+    },
+    {
+      "text": "Це було — важливо - запам'ятай.",
+      "stages": {
+        "in": "d6e520e1f3ebee209720e2e0e6ebe8e2ee202d20e7e0efe0ec27fff2e0e92e0d0a",
+        "abbrev": "d6e520e1f3ebee209720e2e0e6ebe8e2ee202d20e7e0efe0ec27fff2e0e92e0d0a",
+        "numbers": "d6e520e1f3ebee209720e2e0e6ebe8e2ee202d20e7e0efe0ec27fff2e0e92e0d0a",
+        "english": "d6e520e1f3ebee209720e2e0e6ebe8e2ee202d20e7e0efe0ec27fff2e0e92e0d0a",
+        "normalize": "f6e520e1f3ebee2c20e2e0e6ebe8e2ee2c20e7e0efe0ec27fff2e0e92e0d20",
+        "stress": "f6c520e1f3ebce202c20e2e0e6ebc8e2ee202c20e7e0efe0ec27fff2c0e9202e200020",
+        "g2p": "faf6d3e1f3ebd6fae2e0e6faebd4e2eefae7e0efe0ecfae9e0f2d2e9fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 65205,
+          "sha": "1d826a9dc665cafeaa3858fa117ade56ba1d5697173ab8321d36d6fc7f5e2231"
+        },
+        "1r10": {
+          "len": 14121,
+          "sha": "77522d3894a97f20a821726c9fe7eedd9ffd5d8d24fa10b4a228c5ccd7b61792"
+        },
+        "1r5": {
+          "len": 30118,
+          "sha": "4cb9d90cb9cbda15c049039d4276787c2e9a89cb48a1a125b0b8116aa5573ea5"
+        },
+        "2r5": {
+          "len": 30510,
+          "sha": "97c63fc69b6aefdbd4becbf7ab19537d3c7d9251219d3fa88b992dcc966322b7"
+        },
+        "3r5": {
+          "len": 30410,
+          "sha": "4925f4d816acbcd39c46b5639a26b7dc9438db9b5770a97d964995656e63652f"
+        },
+        "wav.v1r5": {
+          "len": 30162,
+          "sha": "4e8048d1c8fb5f376e304145dc1d79d00ad5756c6575bda5d9ced4db32531154"
+        }
+      }
+    },
+    {
+      "text": "Привіт.. як справи?",
+      "stages": {
+        "in": "cff0e8e2b3f22e2e20ffea20f1eff0e0e2e83f0d0a",
+        "abbrev": "cff0e8e2b3f22e2e20ffea20f1eff0e0e2e83f0d0a",
+        "numbers": "cff0e8e2b3f22e2e20ffea20f1eff0e0e2e83f0d0a",
+        "english": "cff0e8e2b3f22e2e20ffea20f1eff0e0e2e83f0d0a",
+        "normalize": "eff0e8e2b3f22e2e20ffea20f1eff0e0e2e83f0d20",
+        "stress": "eff0e8e2b2f2202e20ffea20f1eff0c0e2e8203f200020",
+        "g2p": "faeffaf0e8e2d5f2fae9e0eafaf1faeffaf0d2e2e8fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 61867,
+          "sha": "b43561b58a26a204e1d7c2f1277401af22d2f5e626bc16f46f87d0f724ae834e"
+        },
+        "1r10": {
+          "len": 21986,
+          "sha": "26214df4bc32587963a21616b647df579a3d4e3039ea1641d3fef7494fae8aea"
+        },
+        "1r5": {
+          "len": 25349,
+          "sha": "4aa8bd8dc465314ee1b50a1ca2e86542e88711a0fc8f121e7fb6c195be5aaa7c"
+        },
+        "2r5": {
+          "len": 26277,
+          "sha": "904ddc40fcf6ae64414b96f2aa6fd2ba82dcd0f856188a3d21e5ef2cbd9518c4"
+        },
+        "3r5": {
+          "len": 27006,
+          "sha": "99e6aa18942c8dc1a9955e5582be20d58dc30e04f2f65f9fd279f1d065db5dda"
+        },
+        "wav.v1r5": {
+          "len": 25393,
+          "sha": "75b97ee2dd6a69b5f59165f6e50488e85fc1205e8e82ba74f72ab07b00484cad"
+        }
+      }
+    },
+    {
+      "text": "#2 каже перший голос, #3 а це третій, #1 і знову перший.",
+      "stages": {
+        "in": "233220eae0e6e520efe5f0f8e8e920e3eeebeef12c20233320e020f6e520f2f0e5f2b3e92c20233120b320e7edeee2f320efe5f0f8e8e92e0d0a",
+        "abbrev": "233220eae0e6e520efe5f0f8e8e920e3eeebeef12c20233320e020f6e520f2f0e5f2b3e92c20233120b320e7edeee2f320efe5f0f8e8e92e0d0a",
+        "numbers": "2320e4e2e02020eae0e6e520efe5f0f8e8e920e3eeebeef12c202320f2f0e82020e020f6e520f2f0e5f2b3e92c202320eee4e8ed2020b320e7edeee2f320efe5f0f8e8e92e0d0a",
+        "english": "2320e4e2e02020eae0e6e520efe5f0f8e8e920e3eeebeef12c202320f2f0e82020e020f6e520f2f0e5f2b3e92c202320eee4e8ed2020b320e7edeee2f320efe5f0f8e8e92e0d0a",
+        "normalize": "e4e2e020eae0e6e520efe5f0f8e8e920e3eeebeef12c20f2f0e820e020f6e520f2f0e5f2b3e92c20eee4e8ed20b320e7edeee2f320efe5f0f8e8e92e0d20",
+        "stress": "e4e2c020eac0e6e520efc5f0f8e8e920e3ceebeef1202c20f2f0c820e020f6c520f2f0c5f2b3e9202c20eee4c8ed20b320e7edcee2f320efc5f0f8e8e9202e200020",
+        "g2p": "fae4fae2d2ead2e6e5efd3f0faf8e8e9fae3d6ebeef1faf2faf0d4fae0f6d3f2faf0d3f2f9e9faeee4d4edfaf9e7faedd6e2f3efd3f0faf8e8e9fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 86055,
+          "sha": "e1b122cba863d4fb14a8858e5af8e8eb03617f984de36ce7ba703c86b2172132"
+        },
+        "1r10": {
+          "len": 54751,
+          "sha": "81e66a5a054674fca80495051b09c09c91cb3a35f35dd4f5d6469adc9fe7eab2"
+        },
+        "1r5": {
+          "len": 60950,
+          "sha": "267bcb8f7dc7165bce1e0b7cd94af99dc1a0b9818775ba8f888184a3e99637f9"
+        },
+        "2r5": {
+          "len": 60950,
+          "sha": "267bcb8f7dc7165bce1e0b7cd94af99dc1a0b9818775ba8f888184a3e99637f9"
+        },
+        "3r5": {
+          "len": 60950,
+          "sha": "267bcb8f7dc7165bce1e0b7cd94af99dc1a0b9818775ba8f888184a3e99637f9"
+        },
+        "wav.v1r5": {
+          "len": 60994,
+          "sha": "2ed5ecad543481f9aecb05c8e5742122523ae60c779e50430d66b14fca3544c4"
+        }
+      }
+    },
+    {
+      "text": "Перший рядок.\nДругий рядок.\rКороткий.",
+      "stages": {
+        "in": "cfe5f0f8e8e920f0ffe4eeea2e0ac4f0f3e3e8e920f0ffe4eeea2e0dcaeef0eef2eae8e92e0d0a",
+        "abbrev": "cfe5f0f8e8e920f0ffe4eeea2e0ac4f0f3e3e8e920f0ffe4eeea2e0dcaeef0eef2eae8e92e0d0a",
+        "numbers": "cfe5f0f8e8e920f0ffe4eeea2e0ac4f0f3e3e8e920f0ffe4eeea2e0dcaeef0eef2eae8e92e0d0a",
+        "english": "cfe5f0f8e8e920f0ffe4eeea2e0ac4f0f3e3e8e920f0ffe4eeea2e0dcaeef0eef2eae8e92e0d0a",
+        "normalize": "efe5f0f8e8e920f0ffe4eeea2e20e4f0f3e3e8e920f0ffe4eeea2e0deaeef0eef2eae8e92e0d20",
+        "stress": "efc5f0f8e8e920f0ffe4ceea202e20e4f0d3e3e8e920f0ffe4ceea202e20eaeef0cef2eae8e9202e200020",
+        "g2p": "faefd3f0faf8e8e9fadce0e4d6eafae4faf0d7e3e8e9fadce0e4d6eafaeaeef0d6f2faeae8e9fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 99087,
+          "sha": "6965361c8bac81c75581d68ade85b302027bcaa07037df0fb388ffb69007e1de"
+        },
+        "1r10": {
+          "len": 28666,
+          "sha": "27db539224c6c731c93040d7bc8a43591f75fda2128c5194f4f6ea1fd13d72f9"
+        },
+        "1r5": {
+          "len": 43006,
+          "sha": "b095155886684d9f6751d8bcde83e6f664f85c573d096cffee54972b55118bf0"
+        },
+        "2r5": {
+          "len": 43127,
+          "sha": "71fc426ca3179e73811561c83d46224b7b1e08cb5c340351d991da790d632d61"
+        },
+        "3r5": {
+          "len": 48347,
+          "sha": "fe1a5b6cabd1624b49c472f10a7a9a713272f2a27d6546c0b92f1f303ec76efb"
+        },
+        "wav.v1r5": {
+          "len": 43050,
+          "sha": "0783bc5bb50b8f3fc503d955498f991259fcd32292a2ead5bfafa499690dba6b"
+        }
+      }
+    },
+    {
+      "text": "А тепер 123456789 гривень і +5 відсотків річних.",
+      "stages": {
+        "in": "c020f2e5efe5f02031323334353637383920e3f0e8e2e5edfc20b3202b3520e2b3e4f1eef2eab3e220f0b3f7ede8f52e0d0a",
+        "abbrev": "c020f2e5efe5f02031323334353637383920e3f0e8e2e5edfc20b320efebfef13520e2b3e4f1eef2eab3e220f0b3f7ede8f52e0d0a",
+        "numbers": "c020f2e5efe5f02020f1f2ee20e4e2e0e4f6fff2fc20f2f0e820ecb3ebfce9eeede820f7eef2e8f0e8f1f2e020ef27fff2e4e5f1fff220f8b3f1f2fc20f2e8f1fff720f1b3ecf1eef220e2b3f1b3ece4e5f1fff220e4e5e227fff2fc2020e3f0e8e2e5edfc20b320efebfef120ef27fff2fc2020e2b3e4f1eef2eab3e220f0b3f7ede8f52e0d0a",
+        "english": "c020f2e5efe5f02020f1f2ee20e4e2e0e4f6fff2fc20f2f0e820ecb3ebfce9eeede820f7eef2e8f0e8f1f2e020ef27fff2e4e5f1fff220f8b3f1f2fc20f2e8f1fff720f1b3ecf1eef220e2b3f1b3ece4e5f1fff220e4e5e227fff2fc2020e3f0e8e2e5edfc20b320efebfef120ef27fff2fc2020e2b3e4f1eef2eab3e220f0b3f7ede8f52e0d0a",
+        "normalize": "e020f2e5efe5f020f1f2ee20e4e2e0e4f6fff2fc20f2f0e820ecb3ebfce9eeede820f7eef2e8f0e8f1f2e020ef27fff2e4e5f1fff220f8b3f1f2fc20f2e8f1fff720f1b3ecf1eef220e2b3f1b3ece4e5f1fff220e4e5e227fff2fc20e3f0e8e2e5edfc20b320efebfef120ef27fff2fc20e2b3e4f1eef2eab3e220f0b3f7ede8f52e0d20",
+        "stress": "e020f2e5efc5f020f1f2ce20e4e2c0e4f6fff2fc20f2f0c820ecb3ebfce9ceede820f7eef2c8f0e8f1f2e020ef27fff2e4e5f1dff220f8b2f1f2fc20f2c8f1fff720f1b3ecf1cef220e2b3f1b3ece4e5f1dff220e4c5e227fff2fc20e3f0c8e2e5edfc20b320efebdef120ef27dff2fc20e2b3e4f1cef2eab3e220f0b3f7edc8f5202e200020",
+        "g2p": "fae0f2e5efd3f0faf1faf2d6e4fae2d2e4fadfe0defaf2faf0d4ecf9dafae9d6ede8f7eef2d4f0e8f1faf2e0effae9e0f2fae4e5ddd2f2faf8d5f1fadefaf2d4dde0f7faf1f9ecfaf1d6f2fae2f9f1f9ecfae4e5ddd2f2fae4d3e2fae9e0defae3faf0d4e2e5dbfaf9effadad7f1faeffae9d2defae2f9e4faf1d6f2faeaf9e2faf0f9f7faedd4f5fafa"
+      },
+      "synth": {
+        "1r1": {
+          "len": 291421,
+          "sha": "2235ced1e3691fe943bb84821296e7ecadf6458ad0e3271559f5000c543fb439"
+        },
+        "1r10": {
+          "len": 68657,
+          "sha": "0d91f3fc4345f53a99171b9120bfd34c388b706be17b5b860e81be4d1f9048f8"
+        },
+        "1r5": {
+          "len": 134133,
+          "sha": "7930548434e7878c92c791258a7950a1347abb52a8d241e2ec3fe4c280f61dbf"
+        },
+        "2r5": {
+          "len": 140109,
+          "sha": "f02685fbc98820484652d8629fadaab5cb5472c67fb07dfc4369d7cb2d6fc543"
+        },
+        "3r5": {
+          "len": 145539,
+          "sha": "2cd07615bf789790341e69e9658f017577c48524f75c3cb9e30f9dca1b111505"
+        },
+        "wav.v1r5": {
+          "len": 134177,
+          "sha": "7ca52b1a19ab07ba8fbe8b403ec25b610d7f6a292bb06d434a78dc1a1d8acbb5"
+        }
+      }
+    }
+  ]
+}

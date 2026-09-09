@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Розмовлялька · TTS-демо</title>
+  <meta name="description" content="Веб-демо украинского синтезатора речи «Розмовлялька» (2001): диалог с тремя голосами, WAV/MP3.">
+  <link rel="stylesheet" href="app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23171717'/><path d='M11 10v12M16 7v18M21 11v10' stroke='white' stroke-width='2.6' stroke-linecap='round'/></svg>">
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">∿</span>
+        <span class="brand-name">Розмовлялька</span>
+        <span class="brand-badge">web</span>
+      </div>
+      <div class="header-right">
+        <span id="status" class="status status--loading"><span class="status-dot"></span>завантаження даних…</span>
+      </div>
+    </header>
+
+    <section class="card" id="dialog-card" aria-label="Репліки діалогу">
+      <div class="card-head">
+        <h2>Діалог</h2>
+        <span class="hint">кожній репліці — свій голос</span>
+      </div>
+      <div id="segments" class="segments"></div>
+      <button id="add-segment" class="btn btn-dashed" type="button">
+        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        Додати репліку
+      </button>
+    </section>
+
+    <section class="card" id="settings-card" aria-label="Налаштування">
+      <div class="setting">
+        <div class="setting-head">
+          <label for="rate">Темп</label>
+          <span class="mono" id="rate-value">5</span>
+        </div>
+        <input type="range" id="rate" min="1" max="10" step="1" value="5">
+        <div class="range-scale mono"><span>×1</span><span>×10</span></div>
+      </div>
+      <div class="setting">
+        <div class="setting-head">
+          <label for="volume">Гучність</label>
+          <span class="mono" id="volume-value">80%</span>
+        </div>
+        <input type="range" id="volume" min="0" max="100" step="1" value="80">
+      </div>
+    </section>
+
+    <section class="card player-card" aria-label="Плеєр">
+      <canvas id="wave" class="wave" height="64" width="720"></canvas>
+      <div class="player-bar">
+        <div class="transport">
+          <button id="play" class="btn btn-primary" type="button" aria-label="Відтворити">
+            <svg id="play-icon" class="icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4.5 2.7v10.6c0 .5.5.8.9.5l8.3-5.3c.4-.2.4-.7 0-1L5.4 2.2c-.4-.3-.9 0-.9.5z" fill="currentColor"/></svg>
+            <span id="play-label">Слухати</span>
+          </button>
+          <button id="stop" class="btn btn-ghost" type="button" aria-label="Зупинити">
+            <svg class="icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><rect x="3.5" y="3.5" width="9" height="9" rx="1" fill="currentColor"/></svg>
+          </button>
+        </div>
+        <div class="time mono"><span id="time-current">0:00</span><span class="time-sep">/</span><span id="time-total">0:00</span></div>
+        <div class="spacer"></div>
+        <div class="exports">
+          <button id="download-wav" class="btn btn-ghost" type="button">
+            <svg class="icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13.5h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            WAV
+          </button>
+          <button id="download-mp3" class="btn btn-ghost" type="button">
+            <svg class="icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13.5h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            MP3
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Діфонний синтез «Розмовлялька» (2001) · порт на JS · 11025 Гц, 8 біт</span>
+      <span id="load-stats" class="mono"></span>
+    </footer>
+  </main>
+
+  <div id="overlay" class="overlay" role="status" aria-live="polite">
+    <div class="overlay-panel">
+      <div class="spinner" aria-hidden="true"></div>
+      <div class="overlay-title" id="overlay-title">Завантаження даних</div>
+      <div class="overlay-sub mono" id="overlay-sub">словники й три голоси, ~6.5 МБ</div>
+      <div class="progress"><div class="progress-fill" id="overlay-bar"></div></div>
+      <div class="overlay-pct mono" id="overlay-pct">0%</div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="alert"></div>
+
+  <script src="../vendor/lame.min.js"></script>
+  <script src="../dist/rozmovlyalka.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
