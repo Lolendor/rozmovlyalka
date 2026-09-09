@@ -82,6 +82,9 @@ await Rozmovlyalka.create({ dataUrl?, fetcher?, onProgress? }) // → engine
 
 ## Демо
 
+Живий хостинг — на GitHub Pages: **https://lolendor.github.io/rozmovlyalka/**
+(те ж саме — за адресою …/demo/). Локально:
+
 ```bash
 npm install   # только esbuild для сборки
 npm run demo  # http://localhost:4173/demo/

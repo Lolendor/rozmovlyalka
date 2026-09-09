@@ -1,0 +1,55 @@
+name: Deploy JS web to GitHub Pages
+
+on:
+  push:
+    branches: [js-web]
+    paths:
+      - 'rozmovlyalka-js/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare site (demo as site root)
+        run: |
+          mkdir -p _site
+          cp -R rozmovlyalka-js/demo/* _site/
+          cp -R rozmovlyalka-js/dist _site/dist
+          cp -R rozmovlyalka-js/data _site/data
+          cp rozmovlyalka-js/vendor/lame.min.js _site/lame.min.js
+          cp rozmovlyalka-js/index-landing.html _site/landing.html
+          mv _site/index.html _site/_demo.html
+          sed -e 's#href="app.css"#href="./app.css"#' \
+              -e 's#src="app.js"#src="./app.js"#' \
+              -e 's#src="../vendor/lame.min.js"#src="./lame.min.js"#' \
+              -e 's#src="../dist/rozmovlyalka.umd.min.js"#src="./dist/rozmovlyalka.umd.min.js"#' \
+              -e 's#href="https://lolendor.github.io/rozmovlyalka/"#href="https://lolendor.github.io/rozmovlyalka/demo/"#' \
+              _site/_demo.html > _site/index.html
+          rm _site/_demo.html
+          cp rozmovlyalka-js/og-image.png _site/og-image.png
+          mkdir -p _site/demo
+          cp -R rozmovlyalka-js/demo/* _site/demo/
+          touch _site/.nojekyll
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

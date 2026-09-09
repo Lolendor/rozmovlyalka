@@ -7,7 +7,7 @@
   const SAMPLE_RATE = 11025;
   const GAP_SAMPLES = Math.round(0.18 * SAMPLE_RATE);
   const TAIL_SAMPLES = Math.round(0.28 * SAMPLE_RATE);
-  const LS_KEY = 'rozmovlyalka-demo-v1';
+  const LS_KEY = 'rozmovlyalka-demo-v2';
 
   const $ = (id) => document.getElementById(id);
   const els = {
@@ -60,7 +60,7 @@
   let toastTimer = 0;
 
   function loadState() {
-    const fallback = { segments: DEFAULT_SEGMENTS.map((s) => ({ ...s })), rate: 5, volume: 80 };
+      const fallback = { segments: DEFAULT_SEGMENTS.map((s) => ({ ...s })), rate: 5, volume: 50 };
     try {
       const raw = JSON.parse(localStorage.getItem(LS_KEY) || 'null');
       if (!raw || !Array.isArray(raw.segments) || raw.segments.length === 0) return fallback;
