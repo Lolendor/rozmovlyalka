@@ -2,6 +2,9 @@
 
 [![Демо в браузері](https://img.shields.io/badge/перейти%20до%20демо-браузерна%20TTS-blue)](https://lolendor.github.io/rozmovlyalka/)
 
+Веб-демо (JS-порт у цьому репо, гілка `js-web`) відкривається з дефолтами
+темп ×5 і гучність 100% — грає без підсилення поверх оригінальної амплітуди.
+
 A reverse-engineered, byte-faithful reimplementation in Go of the Ukrainian
 speech synthesizer **«Розмовлялька»** (Rozm.exe, Windows, ~2001). The original
 algorithm was recovered from the disassembly: letter and dictionary rules,
