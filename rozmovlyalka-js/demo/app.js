@@ -8,6 +8,38 @@
   const GAP_SAMPLES = Math.round(0.18 * SAMPLE_RATE);
   const TAIL_SAMPLES = Math.round(0.28 * SAMPLE_RATE);
   const LS_KEY = 'rozmovlyalka-demo-v2';
+  // Каталог, из которого загружен сам app.js: на Pages демо живёт и в корне
+  // сайта, и в /demo/, поэтому данные ищем относительно скрипта и страницы.
+  const SCRIPT_DIR = (() => {
+    try {
+      const src = document.currentScript && document.currentScript.src;
+      if (src) return new URL('.', new URL(src, document.baseURI)).href;
+    } catch { /* переходим ниже */ }
+    return new URL('.', document.baseURI).href;
+  })();
+
+  function dataUrlCandidates() {
+    const pageDir = new URL('.', document.baseURI).href;
+    const urls = [
+      new URL('../data/', SCRIPT_DIR).href,
+      new URL('data/', pageDir).href,
+    ];
+    return Array.from(new Set(urls));
+  }
+
+  async function resolveDataUrl() {
+    for (const base of dataUrlCandidates()) {
+      try {
+        const res = await fetch(new URL('bsnbn.bin.gz', base).href, {
+          method: 'GET', cache: 'no-store',
+        });
+        const ok = res.ok;
+        try { if (res.body) await res.body.cancel(); } catch { /* noop */ }
+        if (ok) return base;
+      } catch { /* перебираем дальше */ }
+    }
+    return dataUrlCandidates()[0];
+  }
 
   const $ = (id) => document.getElementById(id);
   const els = {
@@ -562,7 +594,7 @@
     try {
       const started = performance.now();
       engine = await api.default.create({
-        dataUrl: new URL('../data/', document.baseURI).href,
+        dataUrl: await resolveDataUrl(),
         onProgress: ({ loaded, total }) => {
           const pct = Math.round((loaded / total) * 100);
           els.overlayPct.textContent = `${pct}% · ${(loaded / 1048576).toFixed(1)} / ${(total / 1048576).toFixed(1)} МБ`;
