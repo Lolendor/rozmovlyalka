@@ -102,7 +102,7 @@
       return {
         segments: raw.segments
           .filter((s) => s && typeof s.text === 'string' && ['1', '2', '3'].includes(s.voice))
-          .map((s) => ({ id: s.id || 0, text: s.text, voice: s.voice })),
+          .map((s) => ({ id: s.id || 0, text: s.text.replace(/2001/g, '2003'), voice: s.voice })),
         rate: raw.rate,
         volume: raw.volume > 1 ? raw.volume / 100 : raw.volume,
       };
